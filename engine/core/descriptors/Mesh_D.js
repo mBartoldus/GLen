@@ -14,7 +14,7 @@ import { parse_GLEN } from "../render/mesh/glen/parse_GLEN.js"
 
 async function load_method(name) {
     // if (!(name in paths)) throw "couldn't find mesh"
-    let file = await fetch("../../../content/assets/visuals/mesh/" + name + ".glen")
+    let file = await fetch("../../content/assets/visuals/mesh/" + name + ".glen")
     return parse_GLEN(file)
 }
 
