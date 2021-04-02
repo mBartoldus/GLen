@@ -13,5 +13,5 @@ async function load_method(name) {
     return parse_GLEN(file)
 }
 
-export function Mesh_D(tag) { return Archetypal_Descriptor(tag, load_method) } // encapsulate for different vertex attribute formats?
+export function Mesh_D(tag) { return Archetypal_Descriptor(tag, load_method) }
 
