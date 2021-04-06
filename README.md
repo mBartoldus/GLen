@@ -1,5 +1,7 @@
 # GLen
 
+> Currently in alpha
+
 live demo: https://mbartoldus.github.io/GLen/
 
 This is a long-ongoing project in which I've aimed to familiarize myself with webgl while abstracting away the parts I can't stand looking at.
